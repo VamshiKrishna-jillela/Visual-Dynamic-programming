@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+}
+
+#mynetwork {
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+}
+
+#container2 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+#generate-graph{
+    margin:auto;
+    display:block;
+}
+
+
+#solve{
+    margin:auto;
+    display:block;
+}
+
+body{
+    background-color: rgb(14, 61, 62);
+}
+
+.content{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width:  60%;
+   margin-left: 300px;
+   font-size:1.3rem;
+   line-height: 2.2rem;
+   color:#FFF;
+   position:relative;
+}
+
+#btn{
+    position: absolute;
+    top:80%;
+    left:30%;
+    font-size: 2rem;
+    border-radius: 12px;
+    padding: 10px;
+    color: rgb(14, 61, 62);
+    font-weight: bolder;
+}
+
+#sp{
+    color:burlywood;
+}
